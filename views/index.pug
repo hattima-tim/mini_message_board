@@ -2,4 +2,15 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  table 
+    thead 
+      tr 
+        th user
+        th text
+        th added
+    tbody 
+      each message in messages 
+        tr 
+          td #{ message.user }
+          td #{ message.text }
+          td #{ message.added }
