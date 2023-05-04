@@ -14,3 +14,9 @@ block content
           td #{ message.user }
           td #{ message.text }
           td #{ message.added }
+  button(onClick='redirectToFormPage()') New Message
+
+  script.
+    function redirectToFormPage(){
+      window.location.href='/new'
+    }
