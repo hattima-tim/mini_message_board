@@ -1,10 +1,10 @@
 # mini_message_board
 
-Built as an assignment for [The Odin Project](https://github.com/TheOdinProject/curriculum)
+Built as an assignment for [The Odin Project](https://github.com/TheOdinProject/curriculum) .
 
-Details of the assignment can be found [here](https://www.theodinproject.com/lessons/nodejs-mini-message-board)
+Details of the assignment can be found [here](https://www.theodinproject.com/lessons/nodejs-mini-message-board) .
 
-See the project live [here](https://mini-message-board-hattima-tim.onrender.com/)
+See the project live [here](https://mini-message-board-hattima-tim.onrender.com/) .
 
 The goal of this project was to build an app using backend technologies like nodejs, express, mongoose, pug. So, the frontend looks very basic. Sorry for that, if you were looking for some shiny apps :')
 
