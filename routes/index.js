@@ -29,7 +29,14 @@ router.post("/new", async (req, res, next) => {
 
     res.redirect("/");
   } catch (err) {
-    next(err);
+    const errorString = "Message validation failed";
+    const isValidationError = err.message.includes(errorString);
+    
+    if(isValidationError){
+      res.send('<p>Please fill all form fields.</p>')
+    }else{
+      next(err);
+    }
   }
 });
 
